@@ -1,4 +1,0 @@
-User:Non-Administrators
-Software\Microsoft\Windows\CurrentVersion\Policies\System
-DisableTaskMgr
-DWORD:1

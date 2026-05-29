@@ -1,0 +1,14 @@
+User:Non-Administrators
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+SettingsPageVisibility
+SZ:showonly:network-wifi;network;network-status;sound;display;bluetooth;network-airplanemode;batterysaver
+
+User:Non-Administrators
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+RestrictCpl
+DWORD:1
+
+User:Non-Administrators
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\RestrictCpl
+*
+DELETEALLVALUES

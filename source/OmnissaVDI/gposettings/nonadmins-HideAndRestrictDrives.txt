@@ -1,0 +1,9 @@
+User:Non-Administrators
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+NoDrives
+DWORD:67108863
+
+User:Non-Administrators
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+NoViewOnDrive
+DWORD:67108863

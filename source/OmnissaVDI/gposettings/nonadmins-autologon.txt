@@ -1,0 +1,29 @@
+; ===================== TESTING ONLY =====================
+; The two "Sign out" removal entries below are commented out so the Sign out button
+; stays available during testing. UNCOMMENT BOTH BLOCKS BEFORE PRODUCTION.
+; (LGPO text format: a line beginning with ';' is ignored.)
+;User:Non-Administrators
+;Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+;StartMenuLogOff
+;DWORD:1
+
+;User:Non-Administrators
+;Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+;NoLogOff
+;DWORD:1
+; ========================================================
+
+User:Non-Administrators
+Software\Microsoft\Windows\CurrentVersion\Policies\System
+DisableChangePassword
+DWORD:1
+
+User:Non-Administrators
+Software\Microsoft\Windows\CurrentVersion\Policies\System
+DisableLockWorkstation
+DWORD:1
+
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\System
+HideFastUserSwitching
+DWORD:1
